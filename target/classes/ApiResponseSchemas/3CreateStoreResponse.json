@@ -1,0 +1,73 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "id",
+        "petId",
+        "quantity",
+        "shipDate",
+        "status",
+        "complete"
+    ],
+    "properties": {
+        "id": {
+            "type": "integer",
+            "default": 0,
+            "title": "The id Schema",
+            "examples": [
+                5
+            ]
+        },
+        "petId": {
+            "type": "integer",
+            "default": 0,
+            "title": "The petId Schema",
+            "examples": [
+                2
+            ]
+        },
+        "quantity": {
+            "type": "integer",
+            "default": 0,
+            "title": "The quantity Schema",
+            "examples": [
+                10
+            ]
+        },
+        "shipDate": {
+            "type": "string",
+            "default": "",
+            "title": "The shipDate Schema",
+            "examples": [
+                "2023-06-24T04:11:38.667+0000"
+            ]
+        },
+        "status": {
+            "type": "string",
+            "default": "",
+            "title": "The status Schema",
+            "examples": [
+                "placed"
+            ]
+        },
+        "complete": {
+            "type": "boolean",
+            "default": false,
+            "title": "The complete Schema",
+            "examples": [
+                true
+            ]
+        }
+    },
+    "examples": [{
+        "id": 5,
+        "petId": 2,
+        "quantity": 10,
+        "shipDate": "2023-06-24T04:11:38.667+0000",
+        "status": "placed",
+        "complete": true
+    }]
+}
