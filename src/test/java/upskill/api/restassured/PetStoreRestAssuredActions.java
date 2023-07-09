@@ -1,4 +1,8 @@
-package upskill.api.restassured;
+package upskill.api.restassured;   
+
+
+//practicing for GIT to do see the changes, practice
+
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -9,7 +13,7 @@ import java.io.File;
 
 public class PetStoreRestAssuredActions {
 	
-	public void createPets(){
+	public void createPet(){
 		
 		given().
 			body(new File(System.getProperty("user.dir")
