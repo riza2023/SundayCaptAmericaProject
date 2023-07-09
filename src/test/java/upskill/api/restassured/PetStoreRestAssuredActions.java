@@ -9,7 +9,7 @@ import java.io.File;
 
 public class PetStoreRestAssuredActions {
 	
-	public void createPet(){
+	public void createPets(){
 		
 		given().
 			body(new File(System.getProperty("user.dir")
